@@ -6,6 +6,10 @@ body
   padding: 0;
   font-family: sans-serif;
 }
+
+.navbar{
+  padding: .8rem;
+}
 /*--------Header CSS---------*/
 #header
 {
@@ -47,20 +51,48 @@ body
   padding-bottom: 50px;
   background-color: #E6E6FA;
 
-}
 
+}
 
 .profile-img{
   height: 400px;
 }
 
-.project-img{
-  height: 250px;
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+/* --------Project Section ---------*/
+
+.proj-heading {
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.proj-img{
+  border-radius: 25px;
+}
+
+.proj-details{
+  padding-top: 40px;
+}
+
+.proj-details h3{
+  padding-top: 20px;
+  font-weight: bold;
+}
+.proj-details p{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .experiences{
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 50px;
+
+  background-color: #e8f4f8;
 
 }
 /* .nav-link{
